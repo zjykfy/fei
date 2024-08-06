@@ -1,0 +1,62 @@
+name: genngxinzubo
+
+on:
+  # push:
+  #schedule:
+    #- cron: '20 23 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 2
+          keep_minimum_runs: 6 
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8  # 指定Python版本为3.8
+
+      - name: Install setuptools
+        run: |
+          pip install --upgrade pip  # 升级pip
+          pip install setuptools    # 安装setuptools
+
+      - name: Install dependencies
+        run: |
+          pip install opencv-python  # 根据需要安装opencv-python
+          pip install requests      # 安装requests库
+
+      - name: Run gengxinbeijingip
+        run: python ${{ github.workspace }}/zubo/gengxinbeijingip.py
+
+      #- name: Run gengxintianjinip
+      #  run: python ${{ github.workspace }}/zubo/gengxintianjinip.py
+
+      - name: Run gengxinsichuanyidongip
+        run: python ${{ github.workspace }}/zubo/gengxinsichuanyidongip.py
+
+      # 根据需要取消注释以下行
+      # - name: Run gengxinhunanip
+      #   run: python ${{ github.workspace }}/gengxinhunanip.py
+
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add *.m3u *
+            git commit -m "Automatic update"
+            git push
+          else
+            echo "No changes detected, skipping commit."
+          fi
