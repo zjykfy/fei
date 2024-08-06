@@ -36,12 +36,6 @@ jobs:
           pip install opencv-python  # 根据需要安装opencv-python
           pip install requests      # 安装requests库
 
-      - name: Run gengxinbeijingip
-        run: python ${{ github.workspace }}/zubo/gengxinbeijingip.py
-
-      #- name: Run gengxintianjinip
-      #  run: python ${{ github.workspace }}/zubo/gengxintianjinip.py
-
       - name: Run gengxinsichuanyidongip
         run: python ${{ github.workspace }}/zubo/gengxinsichuanyidongip.py
 
