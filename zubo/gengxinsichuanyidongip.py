@@ -89,7 +89,7 @@ if unique_ips_ports:
         print(f"找到可访问的视频流服务: {valid_ip}")
         # 定义需要更新的文件列表
         files_to_update = [
-            {'url': 'https://raw.githubusercontent.com/zjykfy/fei/main/GAT/GAT.m3u', 'filename': 'GAT/GAT.m3u'}
+            {'url': 'https://raw.githubusercontent.com/zjykfy/fei/main/GAT.m3u', 'filename': 'GAT.m3u'}
         ]
 
         # 更新文件中的IP地址和端口号
