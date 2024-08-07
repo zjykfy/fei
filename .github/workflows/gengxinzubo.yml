@@ -2,8 +2,8 @@ name: genngxinzubo
 
 on:
   # push:
-  #schedule:
-    #- cron: '20 23 * * *'
+  schedule:
+    - cron: '01 */2 * * *'
   workflow_dispatch:
 
 jobs:
