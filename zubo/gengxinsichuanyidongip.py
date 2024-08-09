@@ -3,7 +3,7 @@ import re
 import cv2  # 导入OpenCV库
 
 # 定义fofa链接
-fofa_url = 'https://jihulab.com/ss3234741/sj/raw/07fb793fc7b5fbe28e445ac687273adf3ec5de3d/lib/live.txt'
+fofa_url = 'https://raw.githubusercontent.com/zjykfy/yang/main/p/GAT.m3u'
 # fofa_url = 'http://tonkiang.us/hoteliptv.php?page=1&pv=%E5%9B%9B%E5%B7%9D%E7%94%B5%E4%BF%A1'
 
 
