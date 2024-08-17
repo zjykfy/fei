@@ -1,1 +1,23 @@
-404: Not Found
+[港•澳•台],#genre#
+天映频道,https://test.zapi.us.kg/?id=celestial
+天映经典,https://test.zapi.us.kg/?id=cccm
+Now爆谷星影台,https://test.zapi.us.kg/?id=now-baogu-superstars
+Now爆谷台,https://test.zapi.us.kg/?id=baogu-movies
+HBO,https://test.zapi.us.kg/?id=hbo-hd
+HBOHits,https://test.zapi.us.kg/?id=now-hbo-hits
+HBOFamily,https://test.zapi.us.kg/?id=hbo-family
+HBOSignature,https://test.zapi.us.kg/?id=now-hbo-signature
+东森电影台,https://test.zapi.us.kg/?id=ebc-movie
+东森洋片台,https://test.zapi.us.kg/?id=ebc-emovie
+好莱坞电影台,https://test.zapi.us.kg/?id=hollywood-movie
+LSTIME电影台,https://test.zapi.us.kg/?id=lstime
+Boo,https://test.zapi.us.kg/?id=boo
+Thrill,https://test.zapi.us.kg/?id=thrill
+ROCK Action,https://test.zapi.us.kg/?id=rock-action
+ROCK Entertainment,https://test.zapi.us.kg/?id=rock-entertaiment
+tvN,https://test.zapi.us.kg/?id=tvn
+CINEMAX,https://test.zapi.us.kg/?id=cinemax
+tvN Movies,https://test.zapi.us.kg/?id=tvn-movies
+HITSMovies,https://test.zapi.us.kg/?id=hitsmovies
+MovieMovie,https://test.zapi.us.kg/?id=moviemovie
+AMC,https://test.zapi.us.kg/?id=amc-movie
