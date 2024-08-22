@@ -20,10 +20,10 @@ def extract_unique_ip_ports(fofa_url):
         return None
 
 # 检查视频流的可达性
-def check_video_stream_connectivity(ip_port, urls_tsfile):
+def check_video_stream_connectivity(ip_port, urls_hls):
     try:
         # 构造完整的视频URL
-        video_url = f"http://{ip_port}{urls_tsfile}"
+        video_url = f"http://{ip_port}{urls_hls}"
         # 用OpenCV读取视频
         cap = cv2.VideoCapture(video_url)
         
@@ -67,7 +67,7 @@ def update_files(accessible_ip_port, files_to_update):
             print(f"无法更新文件 {file_info['filename']}，错误: {e}")
 
 # 定义组播地址和端口
-urls_tsfile = "/hls/85/index.m3u8"
+urls_hls = "/hls/85/index.m3u8"
 
 # 提取唯一的IP地址和端口号
 unique_ips_ports = extract_unique_ip_ports(fofa_url)
@@ -80,7 +80,7 @@ if unique_ips_ports:
     # 测试每个IP地址和端口号，直到找到一个可访问的视频流
     valid_ip = None
     for ip_port in unique_ips_ports:
-        valid_ip = check_video_stream_connectivity(ip_port, urls_tsfile)
+        valid_ip = check_video_stream_connectivity(ip_port, urls_hls)
         if valid_ip:
             break  # 找到有效的IP后，不再继续循环
 
