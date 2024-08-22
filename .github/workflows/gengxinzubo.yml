@@ -2,8 +2,8 @@ name: genngxinzubo
 
 on:
   # push:
-  #schedule:
-    #- cron: '01 */2 * * *'
+  schedule:
+    - cron: '01 */5 * * *'
   workflow_dispatch:
 
 jobs:
@@ -36,8 +36,8 @@ jobs:
           pip install opencv-python  # 根据需要安装opencv-python
           pip install requests      # 安装requests库
 
-      - name: Run gengxinsichuanyidongip
-        run: python ${{ github.workspace }}/zubo/gengxinsichuanyidongip.py
+      - name: Run gengxinJieyangip
+        run: python ${{ github.workspace }}/zubo/gengxinJieyangip.py
 
       # 根据需要取消注释以下行
       # - name: Run gengxinhunanip

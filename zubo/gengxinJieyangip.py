@@ -3,9 +3,8 @@ import re
 import cv2  # 导入OpenCV库
 
 # 定义fofa链接
-fofa_url = 'https://raw.githubusercontent.com/zjykfy/yang/main/p/GAT.m3u'
-# fofa_url = 'http://tonkiang.us/hoteliptv.php?page=1&pv=%E5%9B%9B%E5%B7%9D%E7%94%B5%E4%BF%A1'
-
+fofa_url = 'https://fofa.info/result?qbase64=Y2l0eT0iSmlleWFuZyIgJiYgb3JnPSJDaGluYSBVbmljb20gSVAgbmV0d29yayBDaGluYTE2OSBHdWFuZ2RvbmcgcHJvdmluY2UiICYmIHBvcnQ9IjgwOCIgJiYgcHJvdG9jb2w9Imh0dHAi'
+# fofa_url = 'http://tonkiang.us/hoteliptv.php?page=1&pv=%E5%B9%BF%E8%A5%BF%E8%B4%B5%E6%B8%AF'
 
 # 尝试从fofa链接提取IP地址和端口号，并去除重复项
 def extract_unique_ip_ports(fofa_url):
@@ -21,10 +20,10 @@ def extract_unique_ip_ports(fofa_url):
         return None
 
 # 检查视频流的可达性
-def check_video_stream_connectivity(ip_port, urls_666):
+def check_video_stream_connectivity(ip_port, urls_tsfile):
     try:
         # 构造完整的视频URL
-        video_url = f"http://{ip_port}{urls_666}"
+        video_url = f"http://{ip_port}{urls_tsfile}"
         # 用OpenCV读取视频
         cap = cv2.VideoCapture(video_url)
         
@@ -68,7 +67,7 @@ def update_files(accessible_ip_port, files_to_update):
             print(f"无法更新文件 {file_info['filename']}，错误: {e}")
 
 # 定义组播地址和端口
-urls_666 = "/666/666.php?id=0"
+urls_tsfile = "/hls/85/index.m3u8"
 
 # 提取唯一的IP地址和端口号
 unique_ips_ports = extract_unique_ip_ports(fofa_url)
@@ -81,7 +80,7 @@ if unique_ips_ports:
     # 测试每个IP地址和端口号，直到找到一个可访问的视频流
     valid_ip = None
     for ip_port in unique_ips_ports:
-        valid_ip = check_video_stream_connectivity(ip_port, urls_666)
+        valid_ip = check_video_stream_connectivity(ip_port, urls_tsfile)
         if valid_ip:
             break  # 找到有效的IP后，不再继续循环
 
@@ -89,7 +88,7 @@ if unique_ips_ports:
         print(f"找到可访问的视频流服务: {valid_ip}")
         # 定义需要更新的文件列表
         files_to_update = [
-            {'url': 'https://raw.githubusercontent.com/zjykfy/fei/main/GAT/GAT.txt', 'filename': 'GAT/GAT.txt'}
+            {'url': 'https://raw.githubusercontent.com/zjykfy/fei/main/Jieyang/Jieyangzubo.m3u', 'filename': 'Jieyang/Jieyangzubo.m3u'},
         ]
 
         # 更新文件中的IP地址和端口号
