@@ -23,5 +23,5 @@ AMC,http://61.221.215.25:8800/hls/43/index.m3u8
 ROCK Action,http://php.jdshipin.com:8880/xsj.php?id=rock-action
 ROCK Entertainment,http://php.jdshipin.com:8880/xsj.php?id=rock-entertaiment
 ROCK Action,http://37.27.111.214:8080/live/94/hls.m3u8
-CINEMAX,https://phdown.serv00.net/Smartv.php?id=Cinemax
+CINEMAX,http://php.jdshipin.com:8880/xsj.php?id=cinemax
 StarMoviesHD,https://phdown.serv00.net/Smartv.php?id=starmovies_raj
