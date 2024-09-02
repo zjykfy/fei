@@ -37,7 +37,7 @@ jobs:
           pip install requests      # 安装requests库
 
       - name: Run gengxinJieyangip
-        run: python ${{ github.workspace }}/zubo/gengxinJieyangip.py
+        run: python ${{ github.workspace }}/zubo/gengxinYulinip.py
 
       # 根据需要取消注释以下行
       # - name: Run gengxinhunanip
