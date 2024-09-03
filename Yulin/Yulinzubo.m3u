@@ -1,5 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="东森电影台" tvg-name="东森电影台" tvg-logo="https://live.fanmingming.com/tv/EBCMovies.png" group-title="卫视高清",东森电影台
-http://171.110.62.59:8181/tsfile/live/1075_1.m3u8
+http://171.110.62.89:8181/tsfile/live/1075_1.m3u8
 #EXTINF:-1 tvg-id="LSTIME电影台" tvg-name="LSTIME电影台" tvg-logo="https://live.fanmingming.com/tv/LSTIME.png" group-title="卫视高清",LSTIME电影台
-http://171.110.62.59:8181/tsfile/live/1077_1.m3u8
+http://171.110.62.89:8181/tsfile/live/1077_1.m3u8
