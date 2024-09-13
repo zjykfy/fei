@@ -1,5 +1,5 @@
 港澳台,#genre#
-PopC,http://8.217.97.98:8080/stream/4gtv/popc/master.m3u8
+PopC,
 美亚高清电影台,http://220.134.74.149:2399/udp/230.1.2.143:11111
 美亚高清电影台,http://220.134.74.149:2399/udp/224.1.4.91:11111
 美亞电影台,
@@ -21,7 +21,7 @@ Boo,http://50.7.234.10:8278/Boo/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&
 龙华电影,
 天映马来西亚,http://50.7.234.10:8278/Celestial_mega/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=048f6ae3db8287600a11bde6222659ad
 壹电视电影台,http://220.134.74.149:2399/udp/230.1.2.189:11111
-天映经典,http://8.217.97.98:8080/stream/4gtv/null-13/master.m3u8
+天映经典,
 Thrill,http://50.7.234.10:8278/Thrill/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=65c2cb5aec92c8119f2c29461c640231
 HBO,http://50.7.234.10:8278/hbohd_twn/playlist.m3u8?tid=mc42afe745533&ct=11448811&tsum=d606b35ded0b862645ba71eb72173b39
 龙华电影,http://37.27.111.214:8080/live/19/hls.m3u8
