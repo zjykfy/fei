@@ -26,7 +26,8 @@ Boo,http://50.7.234.10:8278/Boo/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&
 Thrill,http://50.7.234.10:8278/Thrill/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=65c2cb5aec92c8119f2c29461c640231
 HBO,http://50.7.234.10:8278/hbohd_twn/playlist.m3u8?tid=mc42afe745533&ct=11448811&tsum=d606b35ded0b862645ba71eb72173b39
 龙华电影,
-AMC,http://61.221.215.25:8800/hls/43/index.m3u8
+AMC,http://jaz9.my.to:2399/udp/230.1.2.157:11111
+AMC,http://jaz9.my.to:2399/udp/224.1.4.43:11111
 CINEMAX,http://50.7.234.10:8278/cinemax_twn/playlist.m3u8?tid=MF6F1142326311423263&ct=19254&tsum=716939f2b6d75d0bb83a4c780e00dbd3
 ROCK Action,http://jaz9.my.to:2399/udp/230.1.2.181:11111
 ROCK Action,http://jaz9.my.to:2399/udp/224.1.4.9:11111
