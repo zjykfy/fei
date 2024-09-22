@@ -3,8 +3,8 @@ import re
 import cv2  # 导入OpenCV库
 
 # 定义fofa链接
-#fofa_url = 'https://fofa.info/result?qbase64=Y2l0eT0iWXVsaW4iICYmIG9yZz0iQ2hpbmFuZXQiICYmICIxNzEuMTEwLjYyIiAmJiBwb3J0PSI4MTgxIg%3D%3D'
-fofa_url = 'https://site.ip138.com/jaz9.my.to'
+fofa_url = 'https://fofa.info/result?qbase64=Y2l0eT0iWXVsaW4iICYmIG9yZz0iQ2hpbmFuZXQiICYmICIxNzEuMTEwLjYyIiAmJiBwb3J0PSI4MTgxIg%3D%3D'
+#fofa_url = 'https://site.ip138.com/jaz9.my.to'
 
 # 尝试从fofa链接提取IP地址和端口号，并去除重复项
 def extract_unique_ip_ports(fofa_url):
