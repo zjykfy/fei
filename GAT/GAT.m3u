@@ -54,10 +54,6 @@ LIFETIME,http://jaz9.my.to:2398/udp/230.1.2.64:11111
 华视,http://jaz9.my.to:2398/udp/224.1.4.12:11111
 公视,http://jaz9.my.to:2398/udp/230.1.2.230:11111
 公视,http://jaz9.my.to:2398/udp/224.1.4.53:11111
-人间卫视,http://jaz9.my.to:2398/udp/230.1.2.193:11111
-人间卫视,http://jaz9.my.to:2398/udp/224.1.4.89:11111
-大爱电视,http://jaz9.my.to:2398/udp/230.1.2.190:11111
-大爱电视,http://jaz9.my.to:2398/udp/224.1.4.54:11111
 TVBS欢乐台,http://jaz9.my.to:2398/udp/224.1.4.154:11111
 TVBS欢乐台,http://jaz9.my.to:2398/udp/224.1.4.2:11111
 TVBS新闻台,http://jaz9.my.to:2398/udp/224.1.4.152:11111
@@ -156,5 +152,11 @@ GOODTV2,http://jaz9.my.to:2398/udp/230.1.2.151:11111
 GOODTV2,http://jaz9.my.to:2398/udp/224.1.4.122:11111
 大立电视,http://jaz9.my.to:2398/udp/224.1.4.142:11111
 大立电视,http://jaz9.my.to:2398/udp/224.1.4.73:11111
+人间卫视,http://jaz9.my.to:2398/udp/230.1.2.193:11111
+人间卫视,http://jaz9.my.to:2398/udp/224.1.4.89:11111
+大爱电视,http://jaz9.my.to:2398/udp/230.1.2.190:11111
+大爱电视,http://jaz9.my.to:2398/udp/224.1.4.54:11111
+大爱2台,http://jaz9.my.to:2398/udp/230.1.2.199:11111
+大爱2台,http://jaz9.my.to:2398/udp/230.1.2.29:11111
 生命电视台,http://jaz9.my.to:2398/udp/230.1.2.187:11111
 生命电视台,http://jaz9.my.to:2398/udp/224.1.4.93:11111
